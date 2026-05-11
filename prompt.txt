@@ -1,0 +1,122 @@
+After completing the deep analysis of Grainger.com and comparing it with my Synteco project, perform a full production audit of my current website like a senior QA engineer, product manager, UI/UX specialist, frontend architect, backend architect, and DevOps reviewer.
+
+Your goal is to identify everything that is missing before deployment.
+
+Audit everything:
+1. UI / Frontend Bugs
+
+Find every visual and interaction issue such as:
+
+Laggy buttons
+Broken hover states
+Scroll performance issues
+Sticky header/navbar lag
+Animation glitches
+Layout shifts
+Broken spacing
+Inconsistent typography
+Misaligned elements
+Overflow issues
+Mobile responsiveness issues
+Tablet UI issues
+Broken transitions
+Missing loading states
+Skeleton loading missing
+Image optimization issues
+
+Example I already found:
+
+On homepage, "Shop by Category" interaction feels laggy / not smooth while scrolling.
+
+You must find all similar issues page by page.
+
+2. Functional Bugs
+
+Find missing or broken functionality such as:
+
+Buttons that do nothing
+Links going nowhere
+Empty pages
+Broken navigation
+Search not behaving like Grainger
+Filters missing
+Product sorting missing
+Cart logic issues
+Wishlist issues
+Session issues
+3. Missing Features
+
+Find all features that still show:
+
+"Coming Soon"
+Placeholder content
+Temporary UI
+Mock data
+Hardcoded content
+
+For each missing feature:
+
+Explain what it should do
+Explain how Grainger handles it
+Mark priority (Critical / High / Medium / Low)
+4. Authentication Audit
+
+Check if I am missing:
+
+Login
+Register
+Forgot password
+Session persistence
+Role-based access
+Security validation
+5. Backend & Database Audit
+
+Analyze what backend systems are still missing:
+
+Product CRUD
+Category management
+Inventory system
+User management
+Orders
+Payments
+Analytics
+Logs
+Notifications
+6. Deployment Readiness Audit
+
+Tell me if the project is ready for deployment.
+
+Check:
+
+Performance
+Security
+Scalability
+Error handling
+Database structure
+API architecture
+SEO
+Accessibility
+Mobile optimization
+
+Then give me:
+
+Deployment Score
+
+Example:
+
+UI/UX Readiness: X/100
+Backend Readiness: X/100
+Performance: X/100
+Security: X/100
+Catalog Architecture: X/100
+Production Readiness: X/100
+Important Working Rules
+Work step by step.
+Analyze one area at a time.
+After each step, stop and ask for my approval before moving to next step.
+Be brutally honest.
+Think like a senior team preparing a real enterprise launch.
+Find issues I may not notice.
+Do not skip even small UI bugs.
+
+Start with Homepage Audit first, and identify every bug, missing feature, UX issue, and deployment blocker.
